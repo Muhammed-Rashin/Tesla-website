@@ -1,0 +1,124 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  overflow: hidden;
+}
+.top{
+    width: 100%;
+    height: 53px;
+}
+.top-text{
+    color: gray;
+}
+.ul-2{
+  position: absolute;
+  right: 0;
+ }
+.logo{
+  position: absolute;
+  top: 9%;
+  left: 3%;
+}
+
+ .navbar-section{
+  position: absolute;
+  top: 7%;
+}
+.nav-link{
+  color: black;
+  font-weight: 500;
+}
+.carousel-caption{
+  color: black;
+  position: absolute;
+  top: 8%;
+  left: 13%;
+}
+h1{
+  font-weight: 600;
+}
+
+span{
+  border-bottom: 1px solid
+}
+a{
+  text-decoration: none;
+}
+.btn-2{
+  background-color: white;
+}
+
+.btn{
+  margin-top: 39%;
+  width: 260px;
+  height: 40px;
+  border-radius: 40px;
+  font-size: 12px;
+  border: 0px;
+  opacity: 85%;
+}
+.footer{
+  list-style: none;
+  padding-left: 200px;
+  padding-top: 50px;
+
+}
+.footer li{
+  float: left;
+  margin-left: 2%;
+  margin-top: 30px;
+  font-size: 12px;
+}
+
+@media screen and (min-width: 1200px){
+  .navbar-collapse{
+    flex-grow: 0;
+  }
+  .container-fluid.my-container-fluid{
+    justify-content: center;
+  }
+  
+}
+@media screen and (max-width :850px) and (min-width :416px){
+  .btn{
+    margin-top: 6%;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+
+  }
+  .btn-1{
+    margin-top: 100%;
+  }
+  
+}
+@media screen and (max-width :415px) {
+  .btn{
+    margin-top: 6%;
+    width: 100%;
+    padding: 0;
+  }
+  .btn-1{
+    margin-top: 130%;
+  }
+}
+@media screen and (max-width :376px) {
+  .btn{
+    margin-top: 6%;
+    width: 100%;
+    padding: 0;
+  }
+  .btn-1{
+    margin-top: 100%;
+  }
+}
+
+@media screen and (max-width :541px) and (min-width :539px){
+  .btn{
+    margin-top: 6%;
+    width: 100%;
+    padding: 0;
+  }
+  .btn-1{
+    margin-top: 80%;
+  }
+}
